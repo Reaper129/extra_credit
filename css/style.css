@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Work+Sans');
+
+body {
+  height: 500px;
+  background-image:       url(https://steamuserimages-a.akamaihd.net/ugc/948458733325372134/3ADBB34927345097766B672D9E8A5459B72E5146/);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#final {
+ color: lightblue
+}
+
+section {
+  border: 3px solid blue;
+  padding: 30px;
+  background-color: gray;
+  border-radius: 50px;
+}
+
+h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 40px;
+	line-height: 40px;
+}
+
+a {
+  text-decoration: none;
+font-family: 'Work Sans', sans-serif;
+margin: 30px;
+color: black;
+font-size: 25px;
+}
+
+a:hover {
+  background-color: lightblue;
+}
